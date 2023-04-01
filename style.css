@@ -28,6 +28,7 @@ li a {
     font-size: 1.4rem;
     padding: 16px 16px;
     display: block;
+    color: #ffff;
 }
 
 li a:hover {
