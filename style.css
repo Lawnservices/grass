@@ -1,22 +1,63 @@
 body{
   background-color: #003356;
+  padding: 0;
+  margin: 0;
+   
+    
+}
+
+.navbar{
+background:linear-gradient(90deg, green 1.7%, white 98.47%90%);
+width: 100%;
+height:auto;
+overflow: hidden;
 }
 h1{
-  color: #fff;
+  color:  #003356;
   text-align: center;
   
 }
 p{
   text-align: center;
-  color: #fff;
+  color:  #003356;
   font-size: 20px;
 }
 .caja{
-  width: 560px;
-  height: 360px;
+  width: 40%;
+  height: auto;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 160px;
-  background-size: cover;
-  background-image: url(https://lagunalawnservice.com/img/galeria9.jpg);
+  margin-top: 60px;
+}
+
+img{
+width: 100%;
+margin: auto;
+}
+ 
+.pie{
+width: 100%;
+height: 80px;
+background-color: limegreen;
+margin-top: 160px; 
+color: white;
+text-align: center;
+padding: 10px;
+position: relative;
+bottom: 0;
+}
+
+@media (min-width:260px) and (max-width:1060px){
+  .caja{
+    width: 90%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+  }
+  
+  img{
+  width: 100%;
+  margin: auto;
+  }
 }
